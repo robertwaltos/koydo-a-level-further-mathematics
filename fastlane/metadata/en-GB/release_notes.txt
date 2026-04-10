@@ -1,0 +1,5 @@
+Initial release of Koydo A Level Further Mathematics Prep.
+
+• Practise questions
+• Score tracking
+• AI tutor integration

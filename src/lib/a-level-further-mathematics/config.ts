@@ -1,0 +1,45 @@
+// A Level Further Mathematics Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM104",
+  slug: "a-level-further-mathematics",
+  name: "A Level Further Mathematics",
+  fullName: "A Level Further Maths",
+  alias: "A Level Further Maths",
+  family: "A Level",
+  category: "School exams",
+  subcategory: "Senior secondary qualification",
+  country: "United Kingdom",
+  region: "EMEA",
+  languages: ["English"],
+  estimatedAnnualTakers: "smaller",
+  testingWindow: "May-Jun",
+  schedulePattern: "Annual",
+  ageGroup: "16-18",
+  targetUser: "School student",
+  delivery: "Paper-based",
+  questionTypes: ["Structured response"],
+  adaptivity: "Linear",
+  sections: "Core + options",
+  scoringMode: "A*-E",
+  essayOrSpeaking: "No",
+  ipRisk: "Low",
+  contentReuse: "advanced_math",
+  uiEngine: "paper_numeric",
+  monetizationPotential: "Medium",
+  tier: "Tier 4",
+  launchWave: "Wave 6",
+  themeColor: "#D97706",
+  themeColorDark: "#B45309",
+  localizationComplexity: "Low",
+  offlineNeeded: true,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
