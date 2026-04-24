@@ -1,6 +1,6 @@
 // Auto-generated shim — re-exports from @/lib/a-level-further-mathematics/config
 // This lets shared ecosystem components import from "@/lib/act/config"
-import type { ExamConfig as _a_level_further_mathematics_Config } from "@/lib/a-level-further-mathematics/config";
+import type { ExamConfig as _Config } from "@/lib/a-level-further-mathematics/config";
 import { EXAM_CONFIG as _raw } from "@/lib/a-level-further-mathematics/config";
 
 // Normalise to the common shape expected by ecosystem components
